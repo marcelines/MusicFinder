@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#1976d2"
+            android:id="@+id/llHeader"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="166dp"
+                android:layout_height="55dp"
+                android:src="@drawable/logo"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="40dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/llMenu"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_below="@+id/llHeader"
+            android:layout_weight="1"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/rlDestaques"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/btn_destaques"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_destaques"
+                    android:textColor="#FFF"
+                    android:id="@+id/tvUltimasDestaques"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subtitulo_destaques"
+                    android:id="@+id/tvDestaquesSubtitulo"
+                    android:textColor="#FFF"
+                    android:layout_below="@id/tvUltimasDestaques"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="10sp"
+                    />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/icon_destaques"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/rlUltimas"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/btn_ultimas"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_ultimas"
+                    android:textColor="#FFF"
+                    android:id="@+id/tvUltimasTitulo"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subtitulo_ultimas"
+                    android:id="@+id/tvUltimasSubtitulo"
+                    android:textColor="#FFF"
+                    android:layout_below="@id/tvUltimasTitulo"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="10sp"
+                    />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/icon_ultimas"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/llMenu2"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_below="@+id/llMenu"
+            android:layout_weight="1"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/rlPesquisa"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/btn_pesquisa"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_pesquisa"
+                    android:textColor="#FFF"
+                    android:id="@+id/tvPesquisaTitulo"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subtitulo_ultimas"
+                    android:id="@+id/tvPesquisaSubtitulo"
+                    android:textColor="#FFF"
+                    android:layout_below="@id/tvPesquisaTitulo"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="10sp"
+                    />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/icon_pesquisa"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/rlFavoritos"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/btn_favoritos"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_favoritos"
+                    android:textColor="#FFF"
+                    android:id="@+id/tvFavoritosTitulo"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subtitulo_ultimas"
+                    android:id="@+id/tvFavoritosSubtitulo"
+                    android:textColor="#FFF"
+                    android:layout_below="@id/tvFavoritosTitulo"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="10sp"
+                    />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/icon_favoritos"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

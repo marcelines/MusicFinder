@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Projecto_Final</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="ultimas">Últimas</string>
+    <string name="destaques">Destaques</string>
+    <string name="pesquisa">Pesquisar</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="titlepesquisa">Pesquisar</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lista">ListaActivity</string>
+    <string name="title_activity_pesquisa">PesquisaActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_favoritos">FavoritosActivity</string>
+    <string name="title_activity_splash_screen">Music Finder</string>
+    <string name="carregando">Carregando...</string>
+    <string name="titulo_ultimas">Últimas</string>
+    <string name="subtitulo_ultimas">Veja as últimas novidades</string>
+    <string name="titulo_destaques">Destaques</string>
+    <string name="subtitulo_destaques">Veja o nosso top semanal</string>
+    <string name="titulo_pesquisa">Pesquisa</string>
+    <string name="subtitulo_pesquisa">Pesquise já as suas músicas</string>
+    <string name="titulo_favoritos">Favoritos</string>
+    <string name="subtitulo_favoritos">Guarde as suas músicas preferidas</string>
+    <string name="titulo_letra">Letra</string>
+
+</resources>
